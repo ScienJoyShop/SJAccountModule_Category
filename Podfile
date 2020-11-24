@@ -5,5 +5,5 @@ source 'https://github.com/ScienJoyShop/SJModularizationPod.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'SJAccountModule_Category' do
-
+	pod 'CTMediator'
 end

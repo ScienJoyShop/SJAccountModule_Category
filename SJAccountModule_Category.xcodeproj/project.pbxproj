@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E72BDEDFB9A259E30509323 /* libPods-SJAccountModule_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AA4AE647FB4BDEE833A4DF /* libPods-SJAccountModule_Category.a */; };
 		AD1DD31E256D065400278199 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD31D256D065400278199 /* AppDelegate.m */; };
 		AD1DD321256D065400278199 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD320256D065400278199 /* SceneDelegate.m */; };
 		AD1DD324256D065400278199 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD323256D065400278199 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		AD1DD32F256D065500278199 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD32E256D065500278199 /* main.m */; };
 		AD1DD339256D065500278199 /* SJAccountModule_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD338256D065500278199 /* SJAccountModule_CategoryTests.m */; };
 		AD1DD344256D065500278199 /* SJAccountModule_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD343256D065500278199 /* SJAccountModule_CategoryUITests.m */; };
+		AD1DD395256D0B1A00278199 /* CCMediator+AccountModule.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1DD394256D0B1900278199 /* CCMediator+AccountModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06FE25124F0B7CF379DDF939 /* Pods-SJAccountModule_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJAccountModule_Category.release.xcconfig"; path = "Target Support Files/Pods-SJAccountModule_Category/Pods-SJAccountModule_Category.release.xcconfig"; sourceTree = "<group>"; };
+		5447D67C47AF28338BE3FE61 /* Pods-SJAccountModule_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJAccountModule_Category.debug.xcconfig"; path = "Target Support Files/Pods-SJAccountModule_Category/Pods-SJAccountModule_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		61AA4AE647FB4BDEE833A4DF /* libPods-SJAccountModule_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SJAccountModule_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1DD319256D065400278199 /* SJAccountModule_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJAccountModule_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1DD31C256D065400278199 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD1DD31D256D065400278199 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,8 @@
 		AD1DD33F256D065500278199 /* SJAccountModule_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJAccountModule_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1DD343256D065500278199 /* SJAccountModule_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJAccountModule_CategoryUITests.m; sourceTree = "<group>"; };
 		AD1DD345256D065500278199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1DD393256D0B1900278199 /* CCMediator+AccountModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCMediator+AccountModule.h"; sourceTree = "<group>"; };
+		AD1DD394256D0B1900278199 /* CCMediator+AccountModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCMediator+AccountModule.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E72BDEDFB9A259E30509323 /* libPods-SJAccountModule_Category.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		249540439605E89F0FEE2142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5447D67C47AF28338BE3FE61 /* Pods-SJAccountModule_Category.debug.xcconfig */,
+				06FE25124F0B7CF379DDF939 /* Pods-SJAccountModule_Category.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD1DD310256D065400278199 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +105,8 @@
 				AD1DD337256D065500278199 /* SJAccountModule_CategoryTests */,
 				AD1DD342256D065500278199 /* SJAccountModule_CategoryUITests */,
 				AD1DD31A256D065400278199 /* Products */,
+				249540439605E89F0FEE2142 /* Pods */,
+				CA86606DA5DA4A1DD896AD1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +123,7 @@
 		AD1DD31B256D065400278199 /* SJAccountModule_Category */ = {
 			isa = PBXGroup;
 			children = (
+				AD1DD392256D0B1900278199 /* SJAccountModule_Category */,
 				AD1DD31C256D065400278199 /* AppDelegate.h */,
 				AD1DD31D256D065400278199 /* AppDelegate.m */,
 				AD1DD31F256D065400278199 /* SceneDelegate.h */,
@@ -137,6 +157,23 @@
 			path = SJAccountModule_CategoryUITests;
 			sourceTree = "<group>";
 		};
+		AD1DD392256D0B1900278199 /* SJAccountModule_Category */ = {
+			isa = PBXGroup;
+			children = (
+				AD1DD393256D0B1900278199 /* CCMediator+AccountModule.h */,
+				AD1DD394256D0B1900278199 /* CCMediator+AccountModule.m */,
+			);
+			path = SJAccountModule_Category;
+			sourceTree = "<group>";
+		};
+		CA86606DA5DA4A1DD896AD1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61AA4AE647FB4BDEE833A4DF /* libPods-SJAccountModule_Category.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD1DD348256D065500278199 /* Build configuration list for PBXNativeTarget "SJAccountModule_Category" */;
 			buildPhases = (
+				D7ACD72D0267503C43F0C2A6 /* [CP] Check Pods Manifest.lock */,
 				AD1DD315256D065400278199 /* Sources */,
 				AD1DD316256D065400278199 /* Frameworks */,
 				AD1DD317256D065400278199 /* Resources */,
@@ -262,6 +300,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D7ACD72D0267503C43F0C2A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJAccountModule_Category-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD1DD315256D065400278199 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,6 +333,7 @@
 				AD1DD324256D065400278199 /* ViewController.m in Sources */,
 				AD1DD31E256D065400278199 /* AppDelegate.m in Sources */,
 				AD1DD32F256D065500278199 /* main.m in Sources */,
+				AD1DD395256D0B1A00278199 /* CCMediator+AccountModule.m in Sources */,
 				AD1DD321256D065400278199 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +501,7 @@
 		};
 		AD1DD349256D065500278199 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5447D67C47AF28338BE3FE61 /* Pods-SJAccountModule_Category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +518,7 @@
 		};
 		AD1DD34A256D065500278199 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FE25124F0B7CF379DDF939 /* Pods-SJAccountModule_Category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
