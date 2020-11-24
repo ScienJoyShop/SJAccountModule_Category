@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
   s.source_files  = "SJAccountModule_Category/SJAccountModule_Category/**/*.{h,m}"
 
   s.requires_arc = true
+  s.dependency 'CTMediator', '~> 44'
 
   # s.dependency "BLNetworking"
 
